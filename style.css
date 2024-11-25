@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #430d0d;
+}
+
+.cube {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    color: #e5e5e5;
+    background-color: #e50914;
+    padding: 5px 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cube-image {
+    width: 120px;
+    height: 100px;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.result p {
+    color: #878d1d;
+    font-size: 20px;
+}
+
+.reset-button {
+    text-align: center;
+    padding: 25px;
+}
+
+.reset-button a {
+    background-color: #db0000;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
